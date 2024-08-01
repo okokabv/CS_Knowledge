@@ -15,6 +15,16 @@
      개인 기기를 통합하는데 비용 발생
      네트워크 보안, 데이터 암호화, 액세스 권한 설정 등 비용 증가
 
+   - BYOD 기술들
+     1) MDM(Mobile Device Management)
+        모바일 기기 관리를 중점적으로 함
+        
+     2) 컨테이너화 (Containerization)
+        데이터 및 애플리케이션 격리 강화
+        
+     3) 모바일 가상화 (Mobile Virtualization)
+        모바일 기기에서 여러 환경을 분리, 사용자 경험과 보안을 향상시키는데 중점
+
 3. CYOD(Choose Your Own Device)
    BYOD의 대안으로 떠오름
    직원은 일정한 한도 내에서 회사가 선정한 기기의 선택권을 가짐
