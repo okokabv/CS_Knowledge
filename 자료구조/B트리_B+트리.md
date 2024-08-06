@@ -28,10 +28,10 @@
      데이터느 항상 단말 노드에 추가됨     
      단말 노드에 여유 공간이 있으면 삽입, 없으면 분할      
     * 분할 규칙:      
-      루트 노드가 가득 찼을 때:
+      루트 노드가 가득 찼을 때:          
       ![image](https://github.com/user-attachments/assets/c010d71f-b21b-480b-ae63-509bf25368ac)       
        
-      루트 노드 이외 노드가 가득 찼을 때:
+      루트 노드 이외 노드가 가득 찼을 때:             
       ![image](https://github.com/user-attachments/assets/cd577e55-312b-4ff7-ae61-2a7e6fb76d72)
 
       예) 차수가 3인 B-트리 데이터 삽입 (1, 8, 4, 6, 13, 5, 27, 9)
