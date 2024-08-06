@@ -54,6 +54,19 @@
       ![image](https://github.com/user-attachments/assets/6fcb11e8-2b75-4105-a619-220ab1e57bc4)        
 
 
+  - 데이터 삭제  
+    삭제 시 B-트리 조건을 만족하지 않으면 조건을 만족하게 수정해야 함
+      
+    예1) 단말 노드 삭제    
+    빌리기: B데이터 삭제 시, 형제 노드가 m/2-1개보다 많은 데이터를 가지고 있을 경우
+    ![image](https://github.com/user-attachments/assets/e515dece-7124-4f9f-a17d-628a7dfbb082)    
+          
+    결합하기: 형제 노드에서 빌릴 수 없는 경우 결함 함    
+    ![image](https://github.com/user-attachments/assets/cd8d8b62-955c-418b-96d3-0e831d84f965)    
+
+
+    
+    
 
 
 
