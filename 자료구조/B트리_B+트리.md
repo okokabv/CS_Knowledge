@@ -28,7 +28,7 @@
      데이터느 항상 단말 노드에 추가됨     
      단말 노드에 여유 공간이 있으면 삽입, 없으면 분할
              
-    * 분할 규칙:      
+     - 분할 규칙:      
       루트 노드가 가득 찼을 때:          
       ![image](https://github.com/user-attachments/assets/c010d71f-b21b-480b-ae63-509bf25368ac)       
        
