@@ -38,32 +38,32 @@
       각 노드의 원소 개수: 0.5개 ~ 2개 사이 (M/2-1 ~ M-1)
       노트의 자식 개수: 1.5 이상 ~ 3 이하 (M/2 ~ M)
    
-      1, 8 삽입    
+      1, 8 삽입     
       ![image](https://github.com/user-attachments/assets/5afbe11d-91d6-4f16-b16c-7b34a4e29352)      
-      4 삽입 후 분할: 원소 개수 2개 초과 
-      ![image](https://github.com/user-attachments/assets/d22b1d32-ba9b-44b5-8956-5e44525aa524)
-      6 삽입: 자식 개수 최대 3개
-      ![image](https://github.com/user-attachments/assets/953917a8-1d07-46bc-a1c0-d8c2f1dff236)
-      13 삽입 후 분할: 자식 개수 4개 됨
-      ![image](https://github.com/user-attachments/assets/0b701962-efc7-47c4-a9bc-2262ae843834)
-      5 삽입
-      ![image](https://github.com/user-attachments/assets/c1ef6195-ff5a-4aba-b049-7e01306699b6)
-      27 삽입
-      ![image](https://github.com/user-attachments/assets/87c163bc-85d1-4de7-b730-ed318539e37e)
-      9 삽입 후 분할: 자식 개수 4개 됨
-      ![image](https://github.com/user-attachments/assets/6fcb11e8-2b75-4105-a619-220ab1e57bc4)        
-
-
-  - 데이터 삭제  
-    삭제 시 B-트리 조건을 만족하지 않으면 조건을 만족하게 수정해야 함
-      
-    예1) 단말 노드 삭제    
-    빌리기: B데이터 삭제 시, 형제 노드가 m/2-1개보다 많은 데이터를 가지고 있을 경우
-    ![image](https://github.com/user-attachments/assets/e515dece-7124-4f9f-a17d-628a7dfbb082)    
+      4 삽입 후 분할: 원소 개수 2개 초과     
+      ![image](https://github.com/user-attachments/assets/d22b1d32-ba9b-44b5-8956-5e44525aa524)         
+      6 삽입: 자식 개수 최대 3개             
+      ![image](https://github.com/user-attachments/assets/953917a8-1d07-46bc-a1c0-d8c2f1dff236)           
+      13 삽입 후 분할: 자식 개수 4개 됨                
+      ![image](https://github.com/user-attachments/assets/0b701962-efc7-47c4-a9bc-2262ae843834)          
+      5 삽입              
+      ![image](https://github.com/user-attachments/assets/c1ef6195-ff5a-4aba-b049-7e01306699b6)             
+      27 삽입            
+      ![image](https://github.com/user-attachments/assets/87c163bc-85d1-4de7-b730-ed318539e37e)            
+      9 삽입 후 분할: 자식 개수 4개 됨         
+      ![image](https://github.com/user-attachments/assets/6fcb11e8-2b75-4105-a619-220ab1e57bc4)         
           
-    결합하기: 형제 노드에서 빌릴 수 없는 경우 결함 함    
-    ![image](https://github.com/user-attachments/assets/cd8d8b62-955c-418b-96d3-0e831d84f965)    
-
+           
+  - 데이터 삭제  
+    삭제 시 B-트리 조건을 만족하지 않으면 조건을 만족하게 수정해야 함         
+                
+    예1) 단말 노드 삭제        
+    빌리기: B데이터 삭제 시, 형제 노드가 m/2-1개보다 많은 데이터를 가지고 있을 경우         
+    ![image](https://github.com/user-attachments/assets/e515dece-7124-4f9f-a17d-628a7dfbb082)      
+                
+    결합하기: 형제 노드에서 빌릴 수 없는 경우 결함 함      
+    ![image](https://github.com/user-attachments/assets/cd8d8b62-955c-418b-96d3-0e831d84f965)          
+ 
 
     
     
