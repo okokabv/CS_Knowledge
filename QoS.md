@@ -9,7 +9,13 @@
     고비용: 충분한 네트워크 자원 할당 및 설치를 위한 많은 비용 필요     
     고대역폭 및 고속처리: 대용량 처리를 위한 멀티미디어 서비스, 실시간 인터랙티브 서비스가 다수 출현      
        
-  - 구성도        
-    ![image](https://github.com/user-attachments/assets/f49df7b4-d54e-4020-a449-98f87ca9c4f8)     
+  - 구성도
+    라우터와 스위치 사이에 위치하여 내외부망 사이의 트래픽을 관리, 사용자 서비스 수준 확보               
+    ![image](https://github.com/user-attachments/assets/f49df7b4-d54e-4020-a449-98f87ca9c4f8)
+
+  - 관리기술      
+    *Queue관리: 대기중인 작업들이 Queue 형태로 구성, 일련의 작업들을 특정 순서에 따라 처리
+    
+    
 
     
