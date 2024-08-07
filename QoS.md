@@ -14,7 +14,7 @@
     ![image](https://github.com/user-attachments/assets/f49df7b4-d54e-4020-a449-98f87ca9c4f8)
 
   - 관리기술      
-    *Queue관리: 대기중인 작업들이 Queue 형태로 구성, 일련의 작업들을 특정 순서에 따라 처리
+    * Queue관리: 대기중인 작업들이 Queue 형태로 구성, 일련의 작업들을 특정 순서에 따라 처리
     
     
 
