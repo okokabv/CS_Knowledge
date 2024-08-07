@@ -15,7 +15,7 @@
 
   - 관리기술      
     * Queue관리: 대기중인 작업들이 Queue 형태로 구성, 일련의 작업들을 특정 순서에 따라 처리
-    
+    종류: FIFO, CBQ, Priority Queue, Fair Queue, Weighted Fair Queue
     
 
     
