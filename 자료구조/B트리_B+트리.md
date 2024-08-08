@@ -22,8 +22,9 @@
    루트 노트와 단말 노드를 제외한 모든 노드는 M/2이상 M이하의 자식을 갖음    
    루트 노드는 적어도 2개의 자식을 갖음    
    각 노드의 원소수는 최소 M/2-1개 ~ 최대 M-1개를 가짐     
-   (최소 개수 이하: underflow, 최대 개수 이상: overflow)     
-     
+   (최소 개수 이하: underflow, 최대 개수 이상: overflow)          
+   B-트리 시각화 사이트: https://www.cs.usfca.edu/~galles/visualization/BPlusTree.html      
+        
   - 데이터 삽입      
      데이터느 항상 단말 노드에 추가됨     
      단말 노드에 여유 공간이 있으면 삽입, 없으면 분할
