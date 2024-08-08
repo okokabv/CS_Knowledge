@@ -73,8 +73,9 @@
     ![image](https://github.com/user-attachments/assets/adb52a7a-c5da-460c-8bf1-e537f1ff6e5e)
           
     ![image](https://github.com/user-attachments/assets/131f36c9-2f55-4c99-8da2-8171beb389f7)      
-
-
+     
+3. B+트리      
+   
 
 
     
