@@ -16,7 +16,7 @@
   - 관리기술      
     * Queue관리: 대기중인 작업들이 Queue 형태로 구성, 일련의 작업들을 특정 순서에 따라 처리       
       종류:            
-            FIFO(First In First Out): FCFS(First Come First Served), 선입선출
+            FIFO(First In First Out): FCFS(First Come First Served), 선입선출         
             CBQ(Class-Based Queuing): IP주소, 프로토콜 등에 따라 계층을 나눠 계층수서대로 처리, WFQ, CQ, PQ, CB-WFQ등 여러 queuing 관리 기법을 모두 하나의 기능으로 통합한 것       
             PQ(Priority Queue): 우선순위에 따라 개별 큐 처리                   
             FQ(Fair Queue): 개별 큐를 공정하게 라운드로빈 방식으로 처리         
