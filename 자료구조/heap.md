@@ -10,7 +10,21 @@
 
 
 ## 1.2 heappop    
-  힙을 제거, 보통 처음 힙이 pop됨
+  힙을 제거, 보통 처음 힙이 pop됨        
+  ![image](https://github.com/user-attachments/assets/950d2401-22f7-4390-a62f-b32071c58e73)    
+       
+ 1) heap이 비어있으면 emtpy     
+2) 루트노드만 있으면 그대로 반환        
+3) 루트노드 값 임시 저장 -> 맨 처음 값 pop이기 때문            
+4) 힙에서 pop해서 마지막 값을 루트에 넣음     
+5) 현재 노드와 자식 노드의 인덱스로 0,1을 대입     
+6) 자식 노드의 인덱스가 heap의 길이보다 작으면 반복     
+6-1) 오른쪽 노트의 인덱스를 구함 (+1 형제 노드)    
+6-2) 현재 노드의 값을 왼쪽 오른쪽 노드와 비교 (부모노드를 자식과 형제 노드랑 비교)   
+6-3) 현재 노드값이 자식노드값 보다 크면 더 작은 자식 노드와 교환   
+6-3-1) 현재 노드의 인덱스를 자식 노드로 갱신, 자식 노드 인덱스를 다시 구함          
+6-4) 현재 노드의 값이 자식 노드보다 작으면 종료 
+
   ```
   [3, 4, 6, 8, 5, 7]
 
@@ -48,8 +62,28 @@ if heap[current] > heap[child]:
 	반복
 
   ```
+       
+```
+def heappop(heap):
+    if not heap:
+        return "Empty Heap!"
+    elif len(heap) == 1:
+        return heap.pop()
 
-
+    pop_data, heap[0] = heap[0], heap.pop()
+    current, child = 0, 1
+    while child < len(heap):
+        sibling = child + 1
+        if sibling < len(heap) and heap[child] > heap[sibling]:
+            child = sibling
+        if heap[current] > heap[child]:
+            heap[current], heap[child] = heap[child], heap[current]
+            current = child
+            child = current * 2 + 1
+        else:
+            break
+    return pop_data
+```
 
 
 
