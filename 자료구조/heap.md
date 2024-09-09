@@ -87,8 +87,11 @@ def heappop(heap):
 
 
 ## 1.3 heapify    
-힙이 아닌 구조를 힙으로 변경
+힙이 아닌 구조를 힙으로 변경        
 
+
+
+![image](https://github.com/user-attachments/assets/f639ef47-f969-4650-b32b-639f3000ea0e)      
 
 ```
 heapify
