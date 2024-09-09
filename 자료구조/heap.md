@@ -86,7 +86,57 @@ def heappop(heap):
 ```
 
 
+## 1.3 heapify    
+힙이 아닌 구조를 힙으로 변경
 
+
+```
+heapify
+
+[6, 2, 5, 1, 3, 4]
+
+     6
+  2     5
+1 3   4
+
+len(arr) = 6
+
+last = len(arr) // 2 -1 -> 마지막 트리 상위 노드 = 2 (5)
+
+마지막 상위노드 인덱스 부터, 자식 노드들 까지 
+
+for current in range (last, -1, -1):
+				시작 종료 스텝
+					-1이면 종료, (0까지), -1씩 감소
+		# current = 처음 2 부터 시작 , 1, 0, 
+	while current <= last: #현재값이 마지막 트리 상위노드랑 같거나 작으면 계속 돎 
+		child = current * 2 +1  # 자식 노드 인덱스 구하는 공식 # 암기  
+		sibling = child + 1  # 자식 형제 노드
+		
+		if sibling < len(arr) and arr[child] > arr[sibling]: # 자식 노드가 형제 노드보다 크면
+			child = sibling  # 형제 자식 인덱스 바꿈 -> 작은수 인덱스를 가져오는 것임
+		
+		if arr[current] > arr[child]: # 자식노드가 현재노드보다 작으면 (부모노드)       # 5 ,  4
+			arr[current], arr[child] = arr[child], arr[current] # 서로 바굼        
+			current = child
+	
+		
+```
+```
+def heapify(arr):
+    last = len(arr) // 2 - 1
+    for current in range(last, -1, -1):
+        while current <= last:
+            child = current * 2 + 1
+            sibling = child + 1
+            if sibling < len(arr) and arr[child] > arr[sibling]:
+                child = sibling
+            if arr[current] > arr[child]:
+                arr[current], arr[child] = arr[child], arr[current]
+                current = child
+            else:
+                break
+```
 
 
 
