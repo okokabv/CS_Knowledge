@@ -127,18 +127,21 @@ for current in range (last, -1, -1):
 ```
 ```
 def heapify(arr):
-    last = len(arr) // 2 - 1
-    for current in range(last, -1, -1):
-        while current <= last:
-            child = current * 2 + 1
-            sibling = child + 1
-            if sibling < len(arr) and arr[child] > arr[sibling]:
-                child = sibling
-            if arr[current] > arr[child]:
-                arr[current], arr[child] = arr[child], arr[current]
-                current = child
-            else:
+    last = len(arr) // 2 - 1  # 마지막 부모 노드의 인덱스
+    for current in range(last, -1, -1):  # 역순으로 부모 노드를 처리
+        # 힙 속성을 만족하도록 자식 노드와 비교하며 조정
+        while True:
+            child = current * 2 + 1  # 왼쪽 자식 노드 인덱스
+            if child >= len(arr):  # 자식 노드가 배열의 길이보다 크면 종료
                 break
+            sibling = child + 1  # 오른쪽 자식 노드 인덱스
+            if sibling < len(arr) and arr[child] > arr[sibling]:  # 오른쪽 자식이 더 작으면 교환
+                child = sibling
+            if arr[current] > arr[child]:  # 부모가 자식보다 크면 교환
+                arr[current], arr[child] = arr[child], arr[current]
+                current = child  # 교환 후 자식 노드로 이동하여 계속 힙 구성
+            else:
+                break  # 힙 속성을 만족하면 종료
 ```
 
 
