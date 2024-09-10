@@ -93,7 +93,8 @@ def heappop(heap):
 
 
 
-![image](https://github.com/user-attachments/assets/f639ef47-f969-4650-b32b-639f3000ea0e)      
+![image](https://github.com/user-attachments/assets/037ae203-873c-48a5-bc60-c6006d6a51dc)
+  
 
 ```
 heapify
