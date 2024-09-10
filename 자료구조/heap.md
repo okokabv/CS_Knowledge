@@ -10,8 +10,7 @@
 
 ## 1.2 heappop    
   힙을 제거, 보통 처음 힙이 pop됨        
-  ![image](https://github.com/user-attachments/assets/74bf7c56-6165-4168-9249-7d3548a905aa)
-
+ ![image](https://github.com/user-attachments/assets/cb45c2b6-079b-4bc8-b2aa-0995568036f1)
        
  1) heap이 비어있으면 emtpy     
 2) 루트노드만 있으면 그대로 반환        
