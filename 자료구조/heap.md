@@ -6,12 +6,15 @@
    ![image](https://github.com/user-attachments/assets/32234927-7e9e-4aef-b46e-ce976109d8cd)          
 
   
-## 1.1 heappush
+## 1.1 heappush               
+![image](https://github.com/user-attachments/assets/fc73c807-e639-4f16-b57c-8e6cb3a03b9c)        
+        
+
 
 ## 1.2 heappop    
   힙을 제거, 보통 처음 힙이 pop됨        
-![image](https://github.com/user-attachments/assets/7810d714-ea0a-4412-b968-9aa63f1177bb)        
-
+![image](https://github.com/user-attachments/assets/938d7da4-9f2b-4cf0-bbc7-5d3dd3b7e1fd)            
+               
  1) heap이 비어있으면 emtpy     
 2) 루트노드만 있으면 그대로 반환        
 3) 루트노드 값 임시 저장 -> 맨 처음 값 pop이기 때문            
