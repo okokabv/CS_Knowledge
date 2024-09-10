@@ -3,7 +3,7 @@
    최소 힙, 최대 힙 존재. 기본은 최소 힙        
    왼쪽에서 오른쪽으로 채워 넣음
    가장 작은 원소가 루트 노드, 자식 노드는 부모 노드보다 같거나 커야한다.          
-   ![image](https://github.com/user-attachments/assets/bbf7581b-b8c0-4a0b-96e9-19cbc5678317)       
+   ![image](https://github.com/user-attachments/assets/32234927-7e9e-4aef-b46e-ce976109d8cd)          
 
   
 ## 1.1 heappush
