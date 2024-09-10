@@ -3,15 +3,15 @@
    최소 힙, 최대 힙 존재. 기본은 최소 힙        
    왼쪽에서 오른쪽으로 채워 넣음
    가장 작은 원소가 루트 노드, 자식 노드는 부모 노드보다 같거나 커야한다.          
-   ![image](https://github.com/user-attachments/assets/4752479b-8bb3-4918-adba-839e3a480d2f)
+   ![image](https://github.com/user-attachments/assets/bbf7581b-b8c0-4a0b-96e9-19cbc5678317)       
 
   
 ## 1.1 heappush
 
-
 ## 1.2 heappop    
   힙을 제거, 보통 처음 힙이 pop됨        
-  ![image](https://github.com/user-attachments/assets/950d2401-22f7-4390-a62f-b32071c58e73)    
+  ![image](https://github.com/user-attachments/assets/74bf7c56-6165-4168-9249-7d3548a905aa)
+
        
  1) heap이 비어있으면 emtpy     
 2) 루트노드만 있으면 그대로 반환        
