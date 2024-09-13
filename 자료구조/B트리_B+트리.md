@@ -1,4 +1,4 @@
-1. 다원 탐색 트리 (Multiway Search Tree) or M원 검색 트리 (M-way Search Tree)    
+## 1. 다원 탐색 트리 (Multiway Search Tree) or M원 검색 트리 (M-way Search Tree)    
   이진 탐색 트리의 차수는 2라서 트리의 높이가 커지는 문제점 존재    
   이러한 문제를 차수를 2에서 m개로 늘려 문제 해결    
   각 노드들은 m-1 개의 레코드와 m개의 서브트리를 가질 수 있음   
@@ -16,7 +16,7 @@
   - 이진 탐색 트리, 다원 탐색 트리 구조 그림    
     ![image](https://github.com/user-attachments/assets/08e87782-25c3-458a-bf42-5f3eb157743f)     
      
-2. B-트리 (B-Tree)
+## 2. B-트리 (B-Tree)
    M원 검색 트리로 높이를 줄일 수 있지만, 균형이 맞지 않는 문제가 있음. 이러한 문제를 B-트리에서 해결
    모든 단말 노드는 같은 레벨에 있음      
    루트 노트와 단말 노드를 제외한 모든 노드는 M/2이상 M이하의 자식을 갖음    
@@ -74,7 +74,7 @@
           
     ![image](https://github.com/user-attachments/assets/131f36c9-2f55-4c99-8da2-8171beb389f7)      
      
-3. B+트리      
+## 3. B+트리      
    
 
 
