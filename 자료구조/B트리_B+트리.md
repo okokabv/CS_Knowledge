@@ -26,7 +26,7 @@
    B-트리 시각화 사이트: https://www.cs.usfca.edu/~galles/visualization/BPlusTree.html       
           
   - 데이터 삽입      
-     데이터느 항상 단말 노드에 추가됨     
+     데이터는 항상 단말 노드에 추가됨     
      단말 노드에 여유 공간이 있으면 삽입, 없으면 분할
              
     * 분할 규칙:      
