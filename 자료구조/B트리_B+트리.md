@@ -74,7 +74,34 @@
           
     ![image](https://github.com/user-attachments/assets/131f36c9-2f55-4c99-8da2-8171beb389f7)      
      
-## 3. B+트리      
+## 3. B+트리       
+B-트리의 변형된 형태, 효율적인 삽입, 검색, 삭제를 추구
+삽입, 삭제 연산이 단말 노드에서만 이루어지며 단말 노드끼리 연결 리스트로 연결됨   
+단말 노드가 순차 집합으로 연결되어 있기 때문에 순차적인 탐색에 유리함.      
+     
+![image](https://github.com/user-attachments/assets/4a236cb8-6ac7-4f95-8217-f1d4d2681c70)      
+
+
+- 데이터 삽입
+  1) 단말 노드가 가득 찼을 경우 -> 중간 값을 부모 노드로 올리고 분할
+  예) 4 삽입         
+![image](https://github.com/user-attachments/assets/9787ed45-a37c-40b3-a829-bf3591b90ecd)    
+2 3,4로 분열, 부모 노드 중간 값인 3을 올림
+
+  2) 내부 노드가 가득찼을 경우    
+  예) 5 삽입          
+![image](https://github.com/user-attachments/assets/1fe8cf95-b4ed-4e7b-a575-f08afec1ad30)        
+                
+![image](https://github.com/user-attachments/assets/c0f5a618-90cd-4491-a2fe-5e44ac5ebfad)       
+3 4,5 노드로 분열, 중간 값 4를 부모 노드로 올림   
+![image](https://github.com/user-attachments/assets/ab9eb101-560c-4afa-bd8e-092798ea18e5)     
+부모 노드도 꽉 찾기 때문에 중간 값 3을 부모로 올리고 2, 4 분열    
+index set은 3,4로 분열 되지 않음     
+     
+- 데이터 삭제   
+
+ 
+  
    
 
 
